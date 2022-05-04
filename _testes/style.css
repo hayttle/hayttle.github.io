@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  /*   background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png"); */
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 5px 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+}
+
+#listaSerie {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+#listaSerie img {
+  margin: 5px 10px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.decobt {
+  border: 0;
+  color: #ffffff;
+  background: grey;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.btremove {
+  border: 0;
+  color: #ffffff;
+  background: grey;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+#listaCapas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#listaCapas img {
+  margin: 10px;
+}
+
+#listaCapas p {
+  color: #ffffff;
+  margin: 1px;
+}
+
+#listaCapas a {
+  color: whitesmoke;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0 auto;
+}
+
+
+
+.container {
+  width: 100%;
+  padding: 0 5vw;
+}
+
+header .container {
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 60px;
+}
+
+.logo {
+  font-size: 2.4rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.logo span {
+  color: #e50914;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li a:hover {
+  color: rgb(221, 221, 221);
+}
+.hero{
+  width: 100%;
+}
+
+.hero img {
+  background-size: cover;
+} */

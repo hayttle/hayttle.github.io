@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>Quiz</h1>
+      <div class="start">
+        <select name="category" id="">
+          <option value="">Selecione uma categoria...</option>
+          <option value="Esporte">Esporte</option>
+          <option value="Geografia">Geografia</option>
+        </select>
+        <button class="btnStart" onclick="start()" disabled>Iniciar</button>
+      </div>
+      <div class="questions">
+        <div class="question-header">
+          <div class="category"></div>
+          <div class="timer"><span class="timer">00:00:00</span>
+          </div>
+          <div class="progress">Questão <span class="actual-question"></span>/<span class="total-questions"></span>
+          </div>
+        </div>
+        <div class="question-content">
+          <h2 class="question-title"></h2>
+          <ul class="question-choices"></ul>
+          <button class="btnConfirm" disabled>Confirmar</button>
+          <button class="btnNext">Próxima</button>
+          <button class="btnFinish">Finalizar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>

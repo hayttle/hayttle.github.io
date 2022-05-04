@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": "01",
+      "folder": "profile-component",
+      "title": "Profile component",
+      "technology": ["html", "css", "javascript"],
+      "responsive": true,
+      "status": "enabled"
+    },
+    {
+      "id": "02",
+      "folder": "webscraping-correios",
+      "title": "Consulta CEP Correios",
+      "technology": ["html", "css", "javascript"],
+      "responsive": true,
+      "status": "enabled"
+    }
+  ]
+}

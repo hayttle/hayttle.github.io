@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador de tempo</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="main">
+      <h1 class="title">Contador</h1>
+      <h2>Informe uma data</h2>
+      <input type="text" placeholder="DD/MM/AAAA" class="inputDate">
+      <button class="btnStart" onclick="start()">Iniciar contagem</button>
+    </div>
+
+
+    <div class="counter">
+      <header>
+        <h1 class="title">Contador</h1>
+        <h2 class="date"></h2>
+        <button class="btnRestart" onclick="restart()">Reiniciar</button>
+      </header>
+      <main>
+        <h2>Faltam</h2>
+        <div class="time">
+          <div class="days">
+            <span class="number"></span>
+            <span class="text">dias</span>
+          </div>
+          <div class="hours">
+            <span class="number"></span>
+            <span class="text">horas</span>
+          </div>
+          <div class="minutes">
+            <span class="number"></span>
+            <span class="text">minutos</span>
+          </div>
+          <div class="seconds">
+            <span class="number"></span>
+            <span class="text">segundos</span>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>

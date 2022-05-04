@@ -1,0 +1,20 @@
+{
+  "projects": [
+    {
+      "id": "01",
+      "folder": "todo-list",
+      "title": "ToDo List - Pure CSS",
+      "technology": ["html", "css"],
+      "responsive": true,
+      "status": "enabled"
+    },
+    {
+      "id": "02",
+      "folder": "nav-tabs",
+      "title": "Nav Tabs - Pure CSS",
+      "technology": ["html", "css"],
+      "responsive": true,
+      "status": "enabled"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #0c0b0b;
+  --primary: #0f0e0e;
+  --font-color: #b7b7b7;
+  --bg-button: #1b1b1b;
+  --bg-button-hover: #313131;
+  --green: #046313;
+  --blue: #044a7d;
+  --yellow: #725200;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Rubik, sans-serif;
+  background-color: var(--background);
+  color: var(--font-color);
+}
+
+.container {
+  background-color: var(--primary);
+  margin: 8rem auto;
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  gap: 30px;
+}
+
+header {
+  margin: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+}
+
+.info h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.info p.username {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.info p.bio {
+  font-size: 1.6rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.6rem;
+}
+
+.input:focus {
+  outline: none;
+}
+button {
+  border-radius: 5px;
+  border: none;
+  background-color: var(--bg-button);
+  color: var(--font-color);
+  font-size: 1.6rem;
+  padding: 10px;
+  cursor: pointer;
+  /* width: 120px; */
+}
+
+button:hover {
+  background-color: var(--bg-button-hover);
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  padding: 32px;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 18px 38.4px;
+  border-radius: 8px;
+  width: 30%;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.card h2 {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.card span {
+  font-size: 4.8rem;
+  font-weight: 500;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.projects {
+  background-color: var(--green);
+}
+
+.stars {
+  background-color: var(--blue);
+}
+
+.followers {
+  background-color: var(--yellow);
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 100vw;
+    min-width: 375px;
+  }
+  header {
+    width: 80vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  .info h1 {
+    font-size: 2.4rem;
+  }
+
+  button {
+    font-size: 1.6rem;
+    padding: 10px;
+  }
+
+  main {
+    width: 100vw;
+  }
+  .cards {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .card {
+    width: 100%;
+  }
+}
