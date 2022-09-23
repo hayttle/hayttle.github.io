@@ -7,7 +7,7 @@
 }
 
 :root {
-  --dark: #020000;
+  --dark: #262626;
   --dark-middle: #0f0f0f;
   --dark-light: #3f3f3f;
   --blue-alpha: rgba(0, 93, 146, 0.8);
@@ -166,6 +166,15 @@ ul a:hover {
   align-items: center;
 }
 
+.contacts .container div.contact {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 170px;
+  height: 150px;
+}
+
 .contacts .container div.contact a {
   flex-wrap: wrap;
   display: flex;
@@ -174,6 +183,7 @@ ul a:hover {
   width: 170px;
   height: 150px;
   text-decoration: none;
+
 }
 
 .contacts div.contact div.icon {
@@ -414,6 +424,11 @@ ul a:hover {
   text-transform: uppercase;
 }
 
+footer {
+  background-color: var(--dark);
+  color: var(--font-light);
+}
+
 footer .container {
   display: flex;
   justify-content: center;
@@ -425,7 +440,7 @@ footer .container {
 
 footer .container a {
   text-decoration: none;
-  color: var(--dark);
+  color: var(--font-light);
   font-weight: 600;
 }
 
