@@ -171,7 +171,7 @@ ul a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 170px;
+  width: 180px;
   height: 150px;
 }
 
@@ -180,7 +180,7 @@ ul a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 170px;
+  width: 180px;
   height: 150px;
   text-decoration: none;
 
